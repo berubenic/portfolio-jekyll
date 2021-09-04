@@ -5,4 +5,10 @@ titles:
   about: "About"
   home: "Home"
   contact: 'Contact'
+  projects: 'Projects'
+  job: 'Web Developer'
+contacts:
+  linkedin: "Linkedin"
+  github: "GitHub"
+  email: "Email"
   

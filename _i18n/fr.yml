@@ -5,3 +5,9 @@ titles:
   about: "À Propos"
   home: 'Acceuil'
   contact: 'Contact'
+  projects: 'Projets'
+  job: 'Développeur Web'
+contacts:
+  linkedin: "Linkedin"
+  github: "GitHub"
+  email: "Courriel"
