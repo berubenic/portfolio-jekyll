@@ -1,4 +1,8 @@
 global:
   english: English
-  french: Francais
+  french: Français
+titles:
+  about: "About"
+  home: "Home"
+  contact: 'Contact'
   

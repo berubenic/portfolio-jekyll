@@ -3,17 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{% t page.title %}</title>
 </head>
 
 <body>
-    {% if site.lang == "en" %}
-    {% capture link1 %}{{ site.baseurl_root }}/fr{{ page.url}}{% endcapture %}
-    <a href="{{ link1 }}">{% t global.french %}</a>
-    {% elsif site.lang == "fr" %}
-    {% capture link2 %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
-    <a href="{{ link2 }}">{% t global.english %}</a>
-    {% endif %}
+    {% include navigation.html %}
 
     {{ content }}
 </body>
