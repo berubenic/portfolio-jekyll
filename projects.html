@@ -90,78 +90,83 @@ permalink_fr: /projets/
 </div>
 <hr>
 <section>
-    <h3>My other projects</h3>
+    <h3>{% t projects.others %}</h3>
     <hr>
     <div>
-        <h3>Flickr stream</h3>
-        <h4>Interacting with the Flickr API</h4>
+        <h3>{% t flickr.title %}</h3>
+        <h4>{% t flickr.description %}</h4>
     </div>
     <div>
-        <img src="img/flickr-stream-preview-200w.png"
-            srcset="img/flickr-stream-preview-200w.png 200w, img/flickr-stream-preview-760w.png 760w"
+        <img src="{{site.baseurl}}/assets/images/flickr/flickr-stream-preview-760w.png"
+            srcset="{{site.baseurl}}/assets/images/flickr/flickr-stream-preview-760w.png 760w, {{site.baseurl}}/assets/images/flickr/flickr-stream-preview-200w.png 200w"
             alt="Flickr stream preview">
     </div>
     <div>
         <a href="https://github.com/berubenic/flickr-stream" target="_blank" rel="noopener">
-            <img src="img/github-mark.png" alt="GitHub Mark" width="32px" height="auto">
+            <img src="{{site.baseurl}}/assets/images/markers/github-marker.png" alt="GitHub Mark" width="32px"
+                height="auto" class="github-mark">
             Github
         </a>
         <a href="https://berube-flickr-stream.herokuapp.com/" target="_blank" rel="noopener">
             <i class="far fa-eye fa-2x"></i>
-            View in browser</a>
+            {% t projects.view %}</a>
     </div>
     <hr>
     <div>
-        <h3>Messager App</h3>
-        <h4>Introduction to Rails ActionCable</h4>
+        <h3>{% t messager.title %}</h3>
+        <h4>{% t messager.description %}</h4>
     </div>
     <div>
-        <img src="img/messager-preview-760w.png"
-            srcset='img/messager-preview-760w.png 760w, img/messager-preview-200w.png 200w' alt="Messager preview">
+        <img src="{{site.baseurl}}/assets/images/messager/messager-preview-760w.png"
+            srcset='{{site.baseurl}}/assets/images/messager/messager-preview-760w.png 760w, {{site.baseurl}}/assets/images/messager/messager-preview-200w.png 200w'
+            alt="Messager preview">
     </div>
     <div>
         <a href="https://github.com/berubenic/Messager" target="_blank" rel="noopener">
-            <img src="img/github-mark.png" alt="GitHub Mark" width="32px" height="auto">
+            <img src="{{site.baseurl}}/assets/images/markers/github-marker.png" alt="GitHub Mark" width="32px"
+                height="auto" class="github-mark">
             Github
         </a>
     </div>
     <hr>
     <div>
-        <h3>Connect Four</h3>
-        <h4>Play a Game with Ruby</h4>
+        <h3>{% t connect_four.title %}</h3>
+        <h4>{% t connect_four.description %}</h4>
     </div>
     <div>
-        <img src="img/connect-four-preview-760w.png"
-            srcset="img/connect-four-preview-200w.png 200w, img/connect-four-preview-760w.png 760w"
+        <img src="{{site.baseurl}}/assets/images/connect-four/connect-four-preview-760w.png"
+            srcset="{{site.baseurl}}/assets/images/connect-four/connect-four-preview-760w.png 760w, {{site.baseurl}}/assets/images/connect-four/connect-four-preview-200w.png 200w"
             alt="Flickr stream preview">
     </div>
     <div>
         <a href="https://github.com/berubenic/Connect-Four" target="_blank" rel="noopener">
-            <img src="img/github-mark.png" alt="GitHub Mark" width="32px" height="auto">
+            <img src="{{site.baseurl}}/assets/images/markers/github-marker.png" alt="GitHub Mark" width="32px"
+                height="auto" class="github-mark">
             Github
         </a>
         <a href="https://replit.com/@NicholasBerube/Connect-Four#readme.md" target="_blank" rel="noopener">
             <i class="fas fa-gamepad fa-2x"></i>
-            Play in browser</a>
+            {% t projects.play %}</a>
     </div>
     <hr>
     <div>
-        <h3>Etch-a-Sketch</h3>
-        <h4>Browser Sketchpad built with JavaScript</h4>
+        <h3>{% t etch.title %}</h3>
+        <h4>{% t etch.description %}</h4>
     </div>
     <div>
-        <img src="img/etch-a-sketch-preview-760w.png"
-            srcset="img/etch-a-sketch-preview-200w.png 200w, img/etch-a-sketch-preview-760w.png 760w"
+        <img src="{{site.baseurl}}/assets/images/etch-a-sketch/etch-a-sketch-preview-760w.png 760w"
+            srcset="{{site.baseurl}}/assets/images/etch-a-sketch/etch-a-sketch-preview-760w.png 760w, {{site.baseurl}}/assets/images/etch-a-sketch/etch-a-sketch-preview-200w.png 200w"
             alt="Flickr stream preview">
     </div>
     <div>
         <a href="https://github.com/berubenic/ETCH-A-SKETCH" target="_blank" rel="noopener">
-            <img src="img/github-mark.png" alt="GitHub Mark" width="32px" height="auto">
+            <img src="{{site.baseurl}}/assets/images/markers/github-marker.png" alt="GitHub Mark" width="32px"
+                height="auto" class="github-mark">
             Github
         </a>
         <a href="https://berube-etch-a-sketch.netlify.app/" target="_blank" rel="noopener">
             <i class="far fa-eye fa-2x"></i>
-            View in browser</a>
+            {% t projects.view %}</a>
     </div>
     <hr>
 </section>

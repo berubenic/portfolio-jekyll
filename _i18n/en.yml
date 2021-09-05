@@ -15,6 +15,7 @@ projects:
   title: "My Favorite Projects"
   play: "Play in browser"
   view: "View in browser"
+  others: "More Projects"
 chess:
   title: "Chess"
   description: "CLI Chess game made with Ruby"
@@ -39,3 +40,15 @@ facebook:
   l2: "Users will be able to add friends and manage their posts."
   l3: "Users will have access to a feed which will display their friends posts."
   l4: "Upload pictures using ActiveStorage."
+flickr:
+  title: "Flickr stream"
+  description: "Interacting with the Flickr API"
+messager:
+  title: "Messager App"
+  description: "Introduction to Rails ActionCable"
+connect_four: 
+  title: "Connect Four"
+  description: "Play a Game with Ruby"
+etch:
+  title: "Etch-a-Sketch"
+  description: "Browser Sketchpad built with JavaScript"

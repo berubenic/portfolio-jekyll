@@ -15,6 +15,7 @@ projects:
   title: "Mes Projets Favoris"
   play: "Jouer en ligne"
   view: "Visualiser"
+  others: 'Autres Projets'
 chess:
   title: "Jeux d'Échec"
   description: "Jeu fait avec Ruby joué dans la ligne de commande"
@@ -39,3 +40,15 @@ facebook:
   l2: "Les utilisateurs peuvent gérer leurs amis et leurs publications."
   l3: "Les utilisateurs on accées à un fil d'actualité qui contient les publications de leurs amis."
   l4: "Téléverser des images grâce à ActiveStorage."
+flickr:
+  title: "Flickr stream"
+  description: "Intéragir avec l'API de Flickr"
+messager:
+  title: "Messager App"
+  description: "Introduction à Rails ActionCable"
+connect_four: 
+  title: "Connect Four"
+  description: "Jouer à un jeux avec Ruby"
+etch:
+  title: "Etch-a-Sketch"
+  description: "Planche à dessin virtuel fait avec JavaScript"
