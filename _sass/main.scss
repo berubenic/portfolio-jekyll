@@ -90,17 +90,13 @@
 
   body {
       margin: 0 auto;
-      background-color: $blue;
+      background-color: $light-font-color;
       font-family: 'Roboto', sans-serif;
       display: flex;
       min-height: 100vh;
       flex-direction: column;
-      justify-content: flex-start;
   }
 
-  main {
-      height: 100%;
-  }
 
   /* ==========================================================================
      Helper classes

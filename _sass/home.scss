@@ -6,24 +6,54 @@
 }
 
 .name {
-    font-size: 6em;
+    font-size: 10vw;
     text-align: center;
     color: $dark-font-color;
     margin-bottom: 0;
 }
 
 .job-title {
-    font-size: 4em;
+    font-size: 6vw;
     text-align: center;
     color: $dark-font-color;
     font-style: italic;
 }
 
 .profile-image {
-    width: 700px;
+    width: 60%;
     height: auto;
     border-radius: 12%;
-    margin: 4em;
+    margin: 2em;
     border: 5px solid $dark-font-color;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+@media only screen and (min-width: 72em) {
+    /* Style adjustments for viewports that meet the condition */
+    .personal-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50% 50%;
+        grid-template-areas: 
+            "name name image"
+            "text text image"
+            ;
+        height: 80vh;
+    }
+    .name {
+        grid-area: name;
+        font-size: 4vw;
+        margin-top: 10vh;
+
+    }
+    .job-title {
+        grid-area: text;
+        margin-top: 0;
+        font-size: 3vw;
+        margin-bottom: 10vh;
+    }
+    .profile-image {
+        width: 60%;
+        grid-area: image;
+    }
+  }

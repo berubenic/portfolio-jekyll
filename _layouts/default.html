@@ -4,9 +4,11 @@
 <head>
     <meta charset="utf-8">
     <title>{% t page.title %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/56fe9a6546.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link
         href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
@@ -15,10 +17,8 @@
 
 <body>
     {% include navigation.html %}
-    <main>
-        {{ content }}
+    {{ content }}
 
-    </main>
 
     {% include footer.html %}
 </body>
