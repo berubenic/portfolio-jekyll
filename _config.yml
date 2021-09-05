@@ -29,13 +29,23 @@ github_username:  berubenic
 # i18n
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
 
 languages: ["en", "fr"]
 exclude_from_localizations: ["javascript", "images", "css"]
+
+# scss variables
+
+
+
+
+
+
+
+
+
 
 
 # Exclude from processing.

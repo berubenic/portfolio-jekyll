@@ -1,15 +1,15 @@
-<nav>
-    {% if site.lang == "en" %}
-    <a href="{% tl home %}">Home</a>
-    <a href="{% tl about %}">About</a>
-    <a href="{% tl projects%}">Projects</a>
-    {% capture link1 %}{{ site.baseurl_root }}/fr{% endcapture %}
-    <a href="{{ link1 }}">{% t global.french %}</a>
-    {% elsif site.lang == "fr" %}
-    <a href="{% tl home fr %}">Accueil</a>
-    <a href="{% tl about fr %}">À Propos</a>
-    <a href="{% tl projects fr%}">Projets</a>
-    {% capture link2 %}{{ site.baseurl_root }}/{% endcapture %}
-    <a href="{{ link2 }}">{% t global.english %}</a>
-    {% endif %}
-  </nav>
+<nav class='top-nav'>
+  {% if site.lang == "en" %}
+  <a href="{% tl home %}">Home</a>
+  <a href="{% tl about %}">About</a>
+  <a href="{% tl projects%}">Projects</a>
+  {% capture link1 %}{{ site.baseurl_root }}/fr{% endcapture %}
+  <a href="{{ link1 }}">{% t global.french %}</a>
+  {% elsif site.lang == "fr" %}
+  <a href="{% tl home fr %}">Accueil</a>
+  <a href="{% tl about fr %}">À Propos</a>
+  <a href="{% tl projects fr%}">Projets</a>
+  {% capture link2 %}{{ site.baseurl_root }}/{% endcapture %}
+  <a href="{{ link2 }}">{% t global.english %}</a>
+  {% endif %}
+</nav>
