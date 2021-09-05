@@ -5,88 +5,86 @@ namespace: projects
 permalink: /projects/
 permalink_fr: /projets/
 ---
-<h3>My Favorite Projects</h3>
+<h3>{% t projects.title %}</h3>
 <hr>
 <div>
-    <h3>Chess</h3>
-    <h4>CLI Chess game made with Ruby</h4>
+    <h3>{% t chess.title %}</h3>
+    <h4>{%t chess.description %}</h4>
     <ul>
-        <li>Built using Object Oriented Programming principles in mind:
-            <ul>
-                <li>Encapsulation: Grouping ressembling logic together through classes</li>
-                <li>Abstraction: Letting classes know as little as possible to each other</li>
-                <li>Inheritance: Each different piece inherits from the Piece super class </li>
-                <li>Polymorphism: Each different piece can behave like it's parent Piece class</li>
-            </ul>
-        </li>
-        <li>Thoroughly tested using Rspec.</li>
-        <li>Save a match in progress thanks to serialization.</li>
+        <li>{% t chess.l1 %}</li>
+        <ul>
+            <li>{% t chess.l2 %}</li>
+            <li>{% t chess.l3 %}</li>
+            <li>{% t chess.l4 %}</li>
+            <li>{% t chess.l5 %}</li>
+        </ul>
+        <li>{% t chess.l6 %}</li>
+        <li>{% t chess.l7%}</li>
     </ul>
 </div>
 <div>
-    <img src="img/chess-preview-760w.png" srcset='img/chess-preview-600w.png 600w, img/chess-preview-760w.png 760w'
-        alt="Chess game preview">
+    <img src="{{site.baseurl}}/assets/images/chess/chess-preview-760w.jpg"
+        srcset="{{site.baseurl}}/assets/images/chess/chess-preview-760w.jpg 760w, {{site.baseurl}}/assets/images/chess/chess-preview-500w.jpg 500w"
+        alt="Chess game preview" width="760px" height="auto">
 </div>
 <div>
     <a href="https://github.com/berubenic/Chess" target="_blank" rel="noopener">
-        <img src="img/github-mark.png" alt="GitHub Mark" width="32px" height="auto" class="github-mark">
-        Github
+        <img src="{{site.baseurl}}/assets/images/markers/github-marker.png" alt="GitHub Mark" width="32px" height="auto"
+            class="github-mark">
+        GitHub
     </a>
     <a href="https://replit.com/@NicholasBerube/Chess#README.md" target="_blank" rel="noopener">
         <i class="fas fa-gamepad fa-2x"></i>
-        Play in browser
+        {% t projects.play %}
     </a>
 </div>
 <hr>
 <div>
-    <h3>Flight Booker App</h3>
-    <h4>A one-way flight booker made with Ruby on Rails</h4>
+    <h3>{% t flight.title %}</h3>
+    <h4>{% t flight.description %}</h4>
     <ul>
-        <li>Implented PostgreSQL database in Ruby on Rails application</li>
-        <li>Using <a href="https://devcenter.heroku.com/articles/scheduler" target="_blank" rel="noopener">Heroku
-                Scheduler</a>,
-            two rake tasks are
-            scheduled
-            to continuously update flights in the database.</li>
-        <li>Wrote model, integration and request specs using RSpec.</li>
-        <li>Utilized Rails ActionMailer to send confirmation emails after succesfully booking a flight</li>
+        <li>{% t flight.l1 %}</li>
+        <li>{% t flight.l2 %}</li>
+        <li>{% t flight.l3 %}</li>
+        <li>{% t flight.l4 %}</li>
     </ul>
 </div>
 <div>
-    <img src="img/flight-booker-preview-500w.png"
-        srcset="img/flight-booker-preview-500w.png 500w, img/flight-booker-preview-760w.png 760w "
-        alt="Flight Booker preview">
+    <img src="{{site.baseurl}}/assets/images/flight/flight-booker-preview-760w.jpg"
+        srcset="{{site.baseurl}}/assets/images/flight/flight-booker-preview-760w.jpg 760w, {{site.baseurl}}/assets/images/flight/flight-booker-preview-500w.jpg 500w"
+        alt="Flight Booker preview" width="760px" height="auto">
 </div>
 <div>
-    <a href="https://github.com/berubenic/odin-flight-booker" target="_blank" rel="noopener">
-        <img src="img/github-mark.png" alt="GitHub Mark" width="32px" height="auto">
-        Github
+    <a href="https://github.com/berubenic/Chess" target="_blank" rel="noopener">
+        <img src="{{site.baseurl}}/assets/images/markers/github-marker.png" alt="GitHub Mark" width="32px" height="auto"
+            class="github-mark">
+        GitHub
     </a>
     <a href="https://berube-flight-booker.herokuapp.com/" target="_blank" rel="noopener">
         <i class="far fa-eye fa-2x"></i>
-        View in browser
+        {% t projects.view %}
     </a>
 </div>
 <hr>
 <div>
-    <h3>Facebook clone (in-progress)</h3>
-    <h4>Ruby on Rails social media app</h4>
+    <h3>{% t facebook.title %}</h3>
+    <h4>{% t facebook.description %}</h4>
     <ul>
-        <li>User authentication using <a href="https://github.com/heartcombo/devise" rel="noopener">Devise</a>
-            and <a href="https://github.com/simi/omniauth-facebook" rel="noopener">Omniauth Facebook
-            </a></li>
-        <li>Users will be able to add friends and manage their posts</li>
-        <li>Users will have access to a feed which will display their friends posts</li>
-        <li>Upload pictures using ActiveStorage</li>
+        <li>{% t facebook.l1 %}</li>
+        <li>{% t facebook.l2 %}</li>
+        <li>{% t facebook.l3 %}</li>
+        <li>{% t facebook.l4 %}</li>
     </ul>
 </div>
 <div>
-    <img src="img/no-image-200w.jpg" srcset='img/no-image-200w.jpg 200w, img/no-image-500w.jpg 500w'
-        alt="No Image available">
+    <img src="{{site.baseurl}}/assets/images/notfacebook/notfacebook-preview-760w.jpg"
+        srcset="{{site.baseurl}}/assets/images/notfacebook/notfacebook-preview-760w.jpg 760w, {{site.baseurl}}/assets/images/notfacebook/notfacebook-preview-500w.jpg 500w"
+        alt="NotFacebook preview" width="760px" height="auto">
 </div>
 <div>
     <a href="https://github.com/berubenic/NotFacebook" target="_blank" rel="noopener">
-        <img src="img/github-mark.png" alt="GitHub Mark" width="32px" height="auto">
+        <img src="{{site.baseurl}}/assets/images/markers/github-marker.png" alt="GitHub Mark" width="32px"
+            height="auto">
         Github
     </a>
 </div>

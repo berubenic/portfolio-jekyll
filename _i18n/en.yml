@@ -11,4 +11,31 @@ contacts:
   linkedin: "Linkedin"
   github: "GitHub"
   email: "Email"
-  
+projects:
+  title: "My Favorite Projects"
+  play: "Play in browser"
+  view: "View in browser"
+chess:
+  title: "Chess"
+  description: "CLI Chess game made with Ruby"
+  l1: "Built using Object Oriented Programming principles in mind:"
+  l2: "Encapsulation: Grouping ressembling logic together through classes."
+  l3: "Abstraction: Letting classes know as little as possible to each other."
+  l4: "Inheritance: Each different piece inherits from the Piece super class."
+  l5: "Polymorphism: Each different piece can behave like it's parent Piece class."
+  l6: "Thoroughly tested using Rspec."
+  l7: "Save a match in progress thanks to serialization."
+flight:
+  title: "Flight Booker App"
+  description: "A one-way flight booker made with Ruby on Rails"
+  l1: "Implented PostgreSQL database in Ruby on Rails application."
+  l2: "Using <a href='https://devcenter.heroku.com/articles/scheduler' target='_blank' rel='noopener'>Heroku Scheduler</a>, two rake tasks are scheduled to continuously update flights in the database."
+  l3: "Wrote model, integration and request specs using RSpec."
+  l4: "Utilized Rails ActionMailer to send confirmation emails after succesfully booking a flight." 
+facebook:
+  title: "Facebook clone (in-progress)"
+  description: "Ruby on Rails social media App"
+  l1: "User authentication using <a href='https://github.com/heartcombo/devise' rel='noopener'>Devise</a> and <a href='https://github.com/simi/omniauth-facebook' rel='noopener'>Omniauth Facebook</a>."
+  l2: "Users will be able to add friends and manage their posts."
+  l3: "Users will have access to a feed which will display their friends posts."
+  l4: "Upload pictures using ActiveStorage."
