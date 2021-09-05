@@ -5,5 +5,13 @@ namespace: about
 permalink: /about/
 permalink_fr: /a-propos/
 ---
-<h2>{% t titles.about %}</h2>
-{% tf about.html %}
+<h2 class='about title'>{% t titles.about %}</h2>
+<h3 class='about description'>{% t about.description %}</h3>
+<article class='about article'>
+    <p>{% t about.p1 %}</p>
+    <p>{% t about.p2 %}</p>
+    <p>{% t about.p3 %}</p>
+    <p>{% t about.p4 %}</p>
+    <p>{% t about.p5 %}</p>
+    <p>{% t about.p6 %}</p>
+</article>

@@ -16,6 +16,14 @@ projects:
   play: "Jouer en ligne"
   view: "Visualiser"
   others: 'Autres Projets'
+about:
+  description: "De Soldat à Forestier à Codeur"
+  p1: "Bonjour,"
+  p2: "Je suis un développeur web autodidacte qui cherche à mettre ses nouvelles compétences à l’épreuve. Après avoir joué du violon pendant 8 ans, j’ai servi trois ans dans les forces Armées Canadiennes en tant que soldat d’infanterie. C’était comme un grand séjour en camping. Au moins, c’est ce qu’ils m’ont dit. À la fin de mon contrat, je me suis dit qu’un travail dans le bois serait parfait pour moi, alors j’ai étudié un an pour devenir Forestier. Apparemment, aimer se balader en forêt la fin de semaine n’est pas pareil que de marcher à travers des forêts sauvages pleines de maringouins et de mouches noires, avec la rencontre occasionnelle d’un chevreuil ou d’un ours. Je croise mes doigts que ceux-ci ne se trouveront pas dans mon prochain lieux de travail."
+  p3: "J’ai grandi dans une famille de sept enfants. J’ai fait mon primaire en Anglais et mon secondaire en Français. Les deux langues ont été utilisées chez moi comme si elle n’en était qu’une. J’ai donc confiance d’affirmer que je suis parfaitement bilingue en français et en anglais. J’ai grandi de façon modeste et j’ai appris que travailler fort et être honnête mène loin dans la vie. À travers ma famille, l’apprentissage d’un nouvel instrument et mes expériences professionnelles du passé, je me suis prouvé que j’ai la détermination pour accomplir n'importe quelles tâches qui se dirigent vers moi."
+  p4: "Les premières fois où j’ai codé, j’ai immédiatement accroché. Les défis quotidiens et les opportunités à en apprendre d’avantages sont infinis. Le sentiment de résoudre un problème qui durait depuis trop longtemps est sans mot. La communauté virtuelle est incroyable. C’est un monde dont je tiens à faire partie. J’ai la discipline, le leadership et les habilités à travailler en équipe pour accomplir le travail demandé. À travers ces défis et aspirations, je croîs en avoir assez pour être un membre clé d'une équipe."
+  p5: "Sincérement,"
+  p6: "Nicholas Bérubé"
 chess:
   title: "Jeux d'Échec"
   description: "Jeu fait avec Ruby joué dans la ligne de commande"
