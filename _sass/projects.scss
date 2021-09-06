@@ -46,6 +46,50 @@
 
 @media only screen and (min-width: 72em) {
     /* Style adjustments for viewports that meet the condition */
-    
+    section.favorites-container{
+        display: grid;
+        width: 80%;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    section.other-projects {
+        display: grid;
+        width: 80%;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    .projects.title {
+        font-size: 1.6em;
+    }
+    .project.description {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        font-size: 1.2em;
+    }
+    .project.image {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .project.footer {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin: 5vh 0;
+    }
+    section.other-projects .project.description {
+        width: 50%;
+        margin: 0 auto;
+        margin-right: 1em;
+    }
+    section.other-projects .project.image {
+        width: 50%;
+        margin: 0 auto;
+        margin-left: 1em;
+    }
+    section.other-projects .project.footer {
+        width: 53%;
+        margin: 5vh auto;
+    }
   }
 

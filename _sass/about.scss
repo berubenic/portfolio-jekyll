@@ -7,10 +7,22 @@
 }
 
 .about.article {
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
     text-align: left;
     margin-bottom: 2em;
     line-height: 1.8em;
 }
 
+@media only screen and (min-width: 72em) {
+    .about.title {
+        font-size: 1.8em;
+    }
+    .about.article {
+        width: 50%;
+        font-size: 1.2em;
+    }
+    .about.description {
+        font-size: 1.4em;
+    }
+}
