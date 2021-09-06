@@ -1,0 +1,51 @@
+.projects.title {
+    text-align: center;
+}
+.project.title {
+    text-align: center;
+    text-decoration: underline;
+}
+.favorites-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+}
+.project.description {
+    text-align: center;
+    border: 3px solid $dark-font-color;
+    margin: 1em;
+    background-color: white;
+}
+.description.list {
+    text-align: left;
+}
+.project.image {
+    border: 3px solid $dark-font-color;
+    background-color: white;
+    margin: 1em;
+}
+.project.footer {
+    background-color: $red;
+    border: 3px solid $dark-font-color;
+}
+.github-mark {
+    max-width: 32px;
+}
+.in-browser {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.in-browser i {
+  padding-right: 2vw;
+}
+.other-projects {
+    margin-bottom: 5vh;
+}
+
+@media only screen and (min-width: 72em) {
+    /* Style adjustments for viewports that meet the condition */
+    
+  }
+

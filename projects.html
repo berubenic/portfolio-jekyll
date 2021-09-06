@@ -5,169 +5,167 @@ namespace: projects
 permalink: /projects/
 permalink_fr: /projets/
 ---
-<h3>{% t projects.title %}</h3>
-<hr>
-<div>
-    <h3>{% t chess.title %}</h3>
-    <h4>{%t chess.description %}</h4>
-    <ul>
-        <li>{% t chess.l1 %}</li>
-        <ul>
-            <li>{% t chess.l2 %}</li>
-            <li>{% t chess.l3 %}</li>
-            <li>{% t chess.l4 %}</li>
-            <li>{% t chess.l5 %}</li>
+<h3 class='projects title'>{% t projects.title %}</h3>
+<section class='favorites-container'>
+    <article class='project description'>
+        <h3 class='project title'>{% t chess.title %}</h3>
+        <h4>{%t chess.description %}</h4>
+        <ul class='description list'>
+            <li>{% t chess.l1 %}</li>
+            <ul>
+                <li>{% t chess.l2 %}</li>
+                <li>{% t chess.l3 %}</li>
+                <li>{% t chess.l4 %}</li>
+                <li>{% t chess.l5 %}</li>
+            </ul>
+            <li>{% t chess.l6 %}</li>
+            <li>{% t chess.l7%}</li>
         </ul>
-        <li>{% t chess.l6 %}</li>
-        <li>{% t chess.l7%}</li>
-    </ul>
-</div>
-<div>
-    <img src="{{site.baseurl}}/assets/images/chess/chess-preview-760w.jpg"
-        srcset="{{site.baseurl}}/assets/images/chess/chess-preview-760w.jpg 760w, {{site.baseurl}}/assets/images/chess/chess-preview-500w.jpg 500w"
-        alt="Chess game preview" width="760px" height="auto">
-</div>
-<div>
-    <a href="https://github.com/berubenic/Chess" target="_blank" rel="noopener">
-        <img src="{{site.baseurl}}/assets/images/markers/github-marker.png" alt="GitHub Mark" width="32px" height="auto"
-            class="github-mark">
-        GitHub
-    </a>
-    <a href="https://replit.com/@NicholasBerube/Chess#README.md" target="_blank" rel="noopener">
-        <i class="fas fa-gamepad fa-2x"></i>
-        {% t projects.play %}
-    </a>
-</div>
-<hr>
-<div>
-    <h3>{% t flight.title %}</h3>
-    <h4>{% t flight.description %}</h4>
-    <ul>
-        <li>{% t flight.l1 %}</li>
-        <li>{% t flight.l2 %}</li>
-        <li>{% t flight.l3 %}</li>
-        <li>{% t flight.l4 %}</li>
-    </ul>
-</div>
-<div>
-    <img src="{{site.baseurl}}/assets/images/flight/flight-booker-preview-760w.jpg"
-        srcset="{{site.baseurl}}/assets/images/flight/flight-booker-preview-760w.jpg 760w, {{site.baseurl}}/assets/images/flight/flight-booker-preview-500w.jpg 500w"
-        alt="Flight Booker preview" width="760px" height="auto">
-</div>
-<div>
-    <a href="https://github.com/berubenic/Chess" target="_blank" rel="noopener">
-        <img src="{{site.baseurl}}/assets/images/markers/github-marker.png" alt="GitHub Mark" width="32px" height="auto"
-            class="github-mark">
-        GitHub
-    </a>
-    <a href="https://berube-flight-booker.herokuapp.com/" target="_blank" rel="noopener">
-        <i class="far fa-eye fa-2x"></i>
-        {% t projects.view %}
-    </a>
-</div>
-<hr>
-<div>
-    <h3>{% t facebook.title %}</h3>
-    <h4>{% t facebook.description %}</h4>
-    <ul>
-        <li>{% t facebook.l1 %}</li>
-        <li>{% t facebook.l2 %}</li>
-        <li>{% t facebook.l3 %}</li>
-        <li>{% t facebook.l4 %}</li>
-    </ul>
-</div>
-<div>
-    <img src="{{site.baseurl}}/assets/images/notfacebook/notfacebook-preview-760w.jpg"
-        srcset="{{site.baseurl}}/assets/images/notfacebook/notfacebook-preview-760w.jpg 760w, {{site.baseurl}}/assets/images/notfacebook/notfacebook-preview-500w.jpg 500w"
-        alt="NotFacebook preview" width="760px" height="auto">
-</div>
-<div>
-    <a href="https://github.com/berubenic/NotFacebook" target="_blank" rel="noopener">
-        <img src="{{site.baseurl}}/assets/images/markers/github-marker.png" alt="GitHub Mark" width="32px"
-            height="auto">
-        Github
-    </a>
-</div>
-<hr>
-<section>
-    <h3>{% t projects.others %}</h3>
-    <hr>
-    <div>
-        <h3>{% t flickr.title %}</h3>
+    </article>
+    <aside class='project image'>
+        <img src="{{site.baseurl}}/assets/images/chess/chess-preview-760w.jpg"
+            srcset="{{site.baseurl}}/assets/images/chess/chess-preview-760w.jpg 760w, {{site.baseurl}}/assets/images/chess/chess-preview-500w.jpg 500w"
+            alt="Chess game preview" width="760px" height="auto">
+    </aside>
+    <footer class='project footer'>
+        <a href="https://github.com/berubenic/Chess" target="_blank" rel="noopener">
+            <img src="{{site.baseurl}}/assets/images/markers/github-marker.png" alt="GitHub Mark" width="32px"
+                height="auto" class="github-mark">
+            GitHub
+        </a>
+        <a href="https://replit.com/@NicholasBerube/Chess#README.md" target="_blank" rel="noopener" class='in-browser'>
+            <i class="fas fa-gamepad fa-2x"></i>
+            {% t projects.play %}
+        </a>
+    </footer>
+    <article class="project description">
+        <h3 class='project title'>{% t flight.title %}</h3>
+        <h4>{% t flight.description %}</h4>
+        <ul class="description list">
+            <li>{% t flight.l1 %}</li>
+            <li>{% t flight.l2 %}</li>
+            <li>{% t flight.l3 %}</li>
+            <li>{% t flight.l4 %}</li>
+        </ul>
+    </article>
+    <aside class="project image">
+        <img src="{{site.baseurl}}/assets/images/flight/flight-booker-preview-760w.jpg"
+            srcset="{{site.baseurl}}/assets/images/flight/flight-booker-preview-760w.jpg 760w, {{site.baseurl}}/assets/images/flight/flight-booker-preview-500w.jpg 500w"
+            alt="Flight Booker preview" width="760px" height="auto">
+    </aside>
+    <footer class="project footer">
+        <a href="https://github.com/berubenic/Chess" target="_blank" rel="noopener">
+            <img src="{{site.baseurl}}/assets/images/markers/github-marker.png" alt="GitHub Mark" width="32px"
+                height="auto" class="github-mark">
+            GitHub
+        </a>
+        <a href="https://berube-flight-booker.herokuapp.com/" target="_blank" rel="noopener" class='in-browser'>
+            <i class="far fa-eye fa-2x"></i>
+            {% t projects.view %}
+        </a>
+    </footer>
+    <article class="project description">
+        <h3 class='project title'>{% t facebook.title %}</h3>
+        <h4>{% t facebook.description %}</h4>
+        <ul class='description list'>
+            <li>{% t facebook.l1 %}</li>
+            <li>{% t facebook.l2 %}</li>
+            <li>{% t facebook.l3 %}</li>
+            <li>{% t facebook.l4 %}</li>
+        </ul>
+    </article>
+    <aside class="project image">
+
+        <img src="{{site.baseurl}}/assets/images/notfacebook/notfacebook-preview-760w.jpg"
+            srcset="{{site.baseurl}}/assets/images/notfacebook/notfacebook-preview-760w.jpg 760w, {{site.baseurl}}/assets/images/notfacebook/notfacebook-preview-500w.jpg 500w"
+            alt="NotFacebook preview" width="760px" height="auto">
+    </aside>
+    <footer class="project footer">
+
+        <a href="https://github.com/berubenic/NotFacebook" target="_blank" rel="noopener">
+            <img src="{{site.baseurl}}/assets/images/markers/github-marker.png" alt="GitHub Mark" width="32px"
+                height="auto" class="github-mark">
+            Github
+        </a>
+    </footer>
+</section>
+
+<section class='other-projects'>
+    <h3 class='projects title'>{% t projects.others %}</h3>
+    <article class="project description">
+        <h3 class='project title'>{% t flickr.title %}</h3>
         <h4>{% t flickr.description %}</h4>
-    </div>
-    <div>
+    </article>
+
+    <aside class="project image">
         <img src="{{site.baseurl}}/assets/images/flickr/flickr-stream-preview-760w.png"
             srcset="{{site.baseurl}}/assets/images/flickr/flickr-stream-preview-760w.png 760w, {{site.baseurl}}/assets/images/flickr/flickr-stream-preview-200w.png 200w"
             alt="Flickr stream preview">
-    </div>
-    <div>
+    </aside>
+    <footer class="project footer">
         <a href="https://github.com/berubenic/flickr-stream" target="_blank" rel="noopener">
             <img src="{{site.baseurl}}/assets/images/markers/github-marker.png" alt="GitHub Mark" width="32px"
                 height="auto" class="github-mark">
             Github
         </a>
-        <a href="https://berube-flickr-stream.herokuapp.com/" target="_blank" rel="noopener">
+        <a href="https://berube-flickr-stream.herokuapp.com/" target="_blank" rel="noopener" class='in-browser'>
             <i class="far fa-eye fa-2x"></i>
             {% t projects.view %}</a>
-    </div>
-    <hr>
-    <div>
-        <h3>{% t messager.title %}</h3>
+    </footer>
+    <article class="project description">
+        <h3 class='project title'>{% t messager.title %}</h3>
         <h4>{% t messager.description %}</h4>
-    </div>
-    <div>
+    </article>
+    <aside class="project image">
         <img src="{{site.baseurl}}/assets/images/messager/messager-preview-760w.png"
             srcset='{{site.baseurl}}/assets/images/messager/messager-preview-760w.png 760w, {{site.baseurl}}/assets/images/messager/messager-preview-200w.png 200w'
             alt="Messager preview">
-    </div>
-    <div>
+    </aside>
+    <footer class="project footer">
         <a href="https://github.com/berubenic/Messager" target="_blank" rel="noopener">
             <img src="{{site.baseurl}}/assets/images/markers/github-marker.png" alt="GitHub Mark" width="32px"
                 height="auto" class="github-mark">
             Github
         </a>
-    </div>
-    <hr>
-    <div>
-        <h3>{% t connect_four.title %}</h3>
+    </footer>
+    <article class="project description">
+        <h3 class='project title'>{% t connect_four.title %}</h3>
         <h4>{% t connect_four.description %}</h4>
-    </div>
-    <div>
+    </article>
+    <aside class="project image">
+
         <img src="{{site.baseurl}}/assets/images/connect-four/connect-four-preview-760w.png"
             srcset="{{site.baseurl}}/assets/images/connect-four/connect-four-preview-760w.png 760w, {{site.baseurl}}/assets/images/connect-four/connect-four-preview-200w.png 200w"
             alt="Flickr stream preview">
-    </div>
-    <div>
+    </aside>
+    <footer class="project footer">
         <a href="https://github.com/berubenic/Connect-Four" target="_blank" rel="noopener">
             <img src="{{site.baseurl}}/assets/images/markers/github-marker.png" alt="GitHub Mark" width="32px"
                 height="auto" class="github-mark">
             Github
         </a>
-        <a href="https://replit.com/@NicholasBerube/Connect-Four#readme.md" target="_blank" rel="noopener">
+        <a href="https://replit.com/@NicholasBerube/Connect-Four#readme.md" target="_blank" rel="noopener"
+            class='in-browser'>
             <i class="fas fa-gamepad fa-2x"></i>
             {% t projects.play %}</a>
-    </div>
-    <hr>
-    <div>
-        <h3>{% t etch.title %}</h3>
+    </footer>
+    <article class="project description">
+        <h3 class="project title">{% t etch.title %}</h3>
         <h4>{% t etch.description %}</h4>
-    </div>
-    <div>
+    </article>
+    <aside class="project image">
         <img src="{{site.baseurl}}/assets/images/etch-a-sketch/etch-a-sketch-preview-760w.png 760w"
             srcset="{{site.baseurl}}/assets/images/etch-a-sketch/etch-a-sketch-preview-760w.png 760w, {{site.baseurl}}/assets/images/etch-a-sketch/etch-a-sketch-preview-200w.png 200w"
             alt="Flickr stream preview">
-    </div>
-    <div>
+    </aside>
+    <footer class="project footer">
         <a href="https://github.com/berubenic/ETCH-A-SKETCH" target="_blank" rel="noopener">
             <img src="{{site.baseurl}}/assets/images/markers/github-marker.png" alt="GitHub Mark" width="32px"
                 height="auto" class="github-mark">
             Github
         </a>
-        <a href="https://berube-etch-a-sketch.netlify.app/" target="_blank" rel="noopener">
+        <a href="https://berube-etch-a-sketch.netlify.app/" target="_blank" rel="noopener" class='in-browser'>
             <i class="far fa-eye fa-2x"></i>
             {% t projects.view %}</a>
-    </div>
-    <hr>
+    </footer>
 </section>
-{% tf projects.html %}
