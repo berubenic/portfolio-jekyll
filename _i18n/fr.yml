@@ -42,17 +42,17 @@ flight:
   l3: "Des tests sur les models, d'intégrations et de requêtes sont écrits avec RSpec."
   l4: "Utilisation de Rails ActionMailer pour envoyer des courriels de confirmation lorsque un vol est réserver." 
 facebook:
-  title: "Clone de Facebook (en-cours)"
+  title: "Clone de Facebook (En-Cours)"
   description: "Réseau Social fait avec Ruby on Rails"
   l1: "Authentification des usagers avec <a href='https://github.com/heartcombo/devise' rel='noopener'>Devise</a> et <a href='https://github.com/simi/omniauth-facebook' rel='noopener'>Omniauth Facebook</a>."
   l2: "Les utilisateurs peuvent gérer leurs amis et leurs publications."
   l3: "Les utilisateurs on accées à un fil d'actualité qui contient les publications de leurs amis."
   l4: "Téléverser des images grâce à ActiveStorage."
 flickr:
-  title: "Flickr stream"
+  title: "Flickr Stream"
   description: "Intéragir avec l'API de Flickr"
 messager:
-  title: "Messager App"
+  title: "Messenger App"
   description: "Introduction à Rails ActionCable"
 connect_four: 
   title: "Connect Four"
