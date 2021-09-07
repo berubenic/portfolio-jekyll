@@ -51,7 +51,7 @@ facebook:
 flickr:
   title: "Flickr Stream"
   description: "Interacting with the Flickr API"
-messager:
+messenger:
   title: "Messenger App"
   description: "Introduction to Rails ActionCable"
 connect_four: 
