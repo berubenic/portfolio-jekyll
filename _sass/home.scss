@@ -22,8 +22,17 @@
 .profile-image {
     width: 60%;
     height: auto;
-    border-radius: 12%;
+    border-radius: 30px;
     margin: 2em;
+    border: 5px solid $dark-font-color;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.skill-marker-logo {
+    width: 128px;
+    height: auto;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 30px;
     border: 5px solid $dark-font-color;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -33,12 +42,12 @@
     .personal-info {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 50% 50%;
         grid-template-areas: 
             "name name image"
             "text text image"
+            "marks marks marks"
+            "marks marks marks"
             ;
-        height: 80vh;
     }
     .name {
         grid-area: name;
@@ -56,4 +65,22 @@
         width: 60%;
         grid-area: image;
     }
+    .skill-marker-link {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+    .skill-marker-logo {
+        width: 128px;
+        margin: 2em;
+        padding: 1em;
+        border-radius: 30px;
+        border: 5px solid $dark-font-color;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .skill-marker-logo:hover {
+        transform: scale(1.2);
+    }
+  
   }
