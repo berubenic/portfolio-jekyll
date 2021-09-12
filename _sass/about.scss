@@ -2,8 +2,23 @@
     text-align: center;
 }
 
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
 .about.description {
     text-align: center;
+}
+
+.about-image {
+    width: 100px;
+    height: auto;
+    margin: 1em auto;
+    border: 2px solid $dark-font-color;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+
 }
 
 .about.article {
@@ -22,6 +37,7 @@
         width: 50%;
         font-size: 1.2em;
     }
+
     .about.description {
         font-size: 1.4em;
     }
