@@ -25,9 +25,21 @@
     background-color: white;
     margin: 1em;
 }
-.project.footer {
-    background-color: $red;
-    border: 3px solid $dark-font-color;
+.project-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 1em;
+    border-bottom: 3px solid $dark-font-color;
+}
+.project-footer a {
+    color: $dark-font-color;
+    text-decoration: none;
+}
+.project-footer a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
 }
 .github-mark {
     max-width: 32px;
@@ -72,10 +84,16 @@
         grid-column-start: 2;
         grid-column-end: 3;
     }
-    .project.footer {
+    .project-footer {
         grid-column-start: 1;
         grid-column-end: 3;
         margin: 5vh 0;
+    }
+    .other-projects .project-footer {
+        justify-content: center;
+    }
+    .other-projects .project-footer a {
+        margin: 0 8em;
     }
     section.other-projects .project.description {
         width: 50%;
