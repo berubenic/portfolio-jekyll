@@ -4,7 +4,7 @@ global:
 titles:
   about: "À Propos"
   home: 'Acceuil'
-  contact: 'ENVOYEZ MOI UN MESSAGE'
+  contact: 'CONTACTEZ-MOI'
   projects: 'Projets'
   job: 'Développeur Web'
 contacts:

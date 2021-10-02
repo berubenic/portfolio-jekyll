@@ -14,7 +14,7 @@ menu_settings:
       url: '/about/'
   menu_items_fr:
     - title: 'Projets'
-      url: '/'
+      url: ''
     - title: 'À Propos'
       url: '/à-propos'
 
