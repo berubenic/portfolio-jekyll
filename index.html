@@ -44,22 +44,26 @@ featured_image: /images/social.jpg
 
 		</div>
 	</section>
+	{% if site.lang == "en" %}
 
 	<section class="listing">
 		<div class="wrap">
 
-			{% for project in site.projects reversed %}
+			{% for project in site.projects_en reversed %}
+
 
 			{% if project.accent_color %}{% capture accent_color %}{{ project.accent_color }}{% endcapture %}{% endif %}
 
 			<article class="project__preview">
-				<h3 class="project__title"><a href="{{ project.url | relative_url }}"
-						style="--accent: {{ accent_color }}">{{ project.title }}</a></h3>
+				<h3 class="project__title">
+					<a href="{{ project.url | relative_url }}" style="--accent: {{ accent_color }}">{{ project.title
+						}}</a>
+				</h3>
 
 				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
 					{% for image in project.gallery_images %}
-					<a href="{{ project.url | relative_url }}"><img
-							src="{{ '/images/projects/' | relative_url}}{{ image }}" alt="" class="project__image"></a>
+					<a href="{{ project.url | relative_url }}"><img src="{{ '/images/projects_en/'}}{{ image }}" alt=""
+							class="project__image"></a>
 					{% endfor %}
 				</div>
 
@@ -78,8 +82,53 @@ featured_image: /images/social.jpg
 			</article>
 
 			{% endfor %}
+
 		</div>
 	</section>
+	{% elsif site.lang == "fr" %}
+	<section class="listing">
+		<div class="wrap">
+
+			{% for project in site.projects_fr reversed %}
+
+
+			{% if project.accent_color %}{% capture accent_color %}{{ project.accent_color }}{% endcapture %}{% endif %}
+
+			<article class="project__preview">
+				<h3 class="project__title">
+					<a href="{{ project.url | relative_url }}" style="--accent: {{ accent_color }}">{{ project.title
+						}}</a>
+				</h3>
+
+				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
+					{% for image in project.gallery_images %}
+					<a href="{{ project.url | relative_url }}"><img src="{{ '/images/projects/'}}{{ image }}" alt=""
+							class="project__image"></a>
+					{% endfor %}
+				</div>
+
+				<div class="project__content grid" style="border-color: {{ accent_color }}">
+					<p class="project__subtitle subtitle--light">{{ project.subtitle }}</p>
+					<p class="project__description --small">
+					<ul>
+						{% for point in project.bullet_points %}
+						<li>{{ point }}</li>
+						{% endfor %}
+					</ul>
+
+
+					</p>
+				</div>
+			</article>
+
+			{% endfor %}
+
+		</div>
+	</section>
+	{% endif %}
+
+
+
 
 	{% include section__about.html %}
 
