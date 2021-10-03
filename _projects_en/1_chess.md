@@ -6,7 +6,7 @@ bullet_points:
   - Thoroughly tested using Rspec.
   - Save a match in progress thanks to serialization.
 featured_image: chess-new.png
-accent_color: '#4C60E6'
+accent_color: '#2aa198'
 gallery_images:
   - chess-new.png
   - chess-capture.png
