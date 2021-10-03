@@ -7,9 +7,10 @@ bullet_points:
   - Users have access to a feed which displays their friends posts.
   - Upload pictures using ActiveStorage.
 featured_image: facebookclone-new.png
-accent_color: '#3ea0ee'
+accent_color: '#4e4187'
 gallery_images:
   - facebookclone-new.png
   - facebookclone-posts.png
   - facebookclone-friends.png
+github_link: https://github.com/berubenic/NotFacebook
 ---

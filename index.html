@@ -60,14 +60,13 @@ featured_image: /images/social.jpg
 
 			<article class="project__preview">
 				<h3 class="project__title">
-					<a href="{{ project.url | relative_url }}" style="--accent: {{ accent_color }}">{{ project.title
-						}}</a>
+					{{ project.title }}
 				</h3>
 
 				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
 					{% for image in project.gallery_images %}
-					<a href="{{ project.url | relative_url }}"><img src="{{ '/images/projects/'}}{{ image }}" alt=""
-							class="project__image"></a>
+					<img src="{{ '/images/projects/'}}{{ image }}" alt=""
+							class="project__image">
 					{% endfor %}
 				</div>
 
@@ -79,9 +78,10 @@ featured_image: /images/social.jpg
 						<li>{{ point }}</li>
 						{% endfor %}
 					</ul>
-
-
 					</p>
+					{% for link in project.github_link %}
+					<a href="{{ link }}" target="_blank" style="color: {{ accent_color }}">View on GitHub</a>
+					{% endfor %}
 				</div>
 			</article>
 
@@ -93,7 +93,7 @@ featured_image: /images/social.jpg
 	<section class="listing">
 		<div class="wrap">
 
-			{% for project in site.projects_fr reversed %}
+			{% for project in site.projects_fr %}
 
 
 			{% if project.accent_color %}
@@ -104,14 +104,14 @@ featured_image: /images/social.jpg
 
 			<article class="project__preview">
 				<h3 class="project__title">
-					<a href="{{ project.url | relative_url }}" style="--accent: {{ accent_color }}">{{ project.title
-						}}</a>
+					{{ project.title
+						}}
 				</h3>
 
 				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
 					{% for image in project.gallery_images %}
-					<a href="{{ project.url | relative_url }}"><img src="{{ '/images/projects/'}}{{ image }}" alt=""
-							class="project__image"></a>
+					<img src="{{ '/images/projects/'}}{{ image }}" alt=""
+							class="project__image">
 					{% endfor %}
 				</div>
 
@@ -123,9 +123,11 @@ featured_image: /images/social.jpg
 						<li>{{ point }}</li>
 						{% endfor %}
 					</ul>
+				</p>
 
-
-					</p>
+					{% for link in project.github_link %}
+					<a href="{{ link }}" target="_blank" style=" color: {{ accent_color }}">Lien vers GitHub</a>
+					{% endfor %}
 				</div>
 			</article>
 

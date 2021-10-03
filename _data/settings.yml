@@ -21,7 +21,9 @@ menu_settings:
 footer_settings:
   logo_image: 
   logo_width: 100
-  tagline: A software developer who builds web applications and sites
+  tagline_en: A software developer who builds web applications and sites
+  tagline_fr: Un dévloppeur qui bâtit des applications et des sites web
+
 
 hero_settings:
   background_image: /images/backgrounds/background-hero.svg

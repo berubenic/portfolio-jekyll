@@ -28,7 +28,7 @@
 					{% endfor %}
 					<li class="menu__list__item">
 						{% capture link1 %}{{ site.baseurl_root }}/fr{% endcapture %}
-						<a href="{{ link1 }}" class="menu__list__item__link button--text">{% t global.french %}</a>
+						<a href="{{ link1 }}" class="menu__list__item__link button--text active-link">{% t global.french %}</a>
 					</li>
 					<li class="menu__cta">
 						<a href="#" class="menu__cta__link button--text contact-trigger js-contact">{% t titles.contact
@@ -43,7 +43,7 @@
 					{% endfor %}
 					<li class="menu__list__item">
 						{% capture link2 %}{{ site.baseurl_root }}/{% endcapture %}
-						<a href="{{ link2 }}" class="menu__list__item__link button--text">{% t global.english
+						<a href="{{ link2 }}" class="menu__list__item__link button--text active-link">{% t global.english
 							%}</a>
 					</li>
 					<li class="menu__cta">

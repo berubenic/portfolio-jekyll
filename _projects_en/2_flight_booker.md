@@ -13,5 +13,5 @@ gallery_images:
   - flightbooker-book.png
   - flightbooker-success.png
   - flightbooker-email.png
-
+github_link: https://github.com/berubenic/odin-flight-booker
 ---

@@ -13,16 +13,22 @@
     </div>
 
     <div class="about__content">
+	    {% if site.lang == "en" %}
       <h2 class="title">Hey, I’m Nicholas, nice to meet you!</h2>
-      <p class="subtitle subtitle--light">I’m a designer and a developer with over 12 years of experience under my belt.
-      </p>
 
-      <p>My skills include product design, interactive design, aesthetic art direction, prototyping, mobile design,
-        branding, front-end development and team leadership. I’m interested in clean aesthetics, minimalism, unusual
-        typography, photography and simplistic UX solutions.</p>
+      <p>My skills include <b>Ruby</b>, <b>Ruby on Rails</b>, <b>Liquid</b>, <b>SQL</b>, <b>HTML5</b>, <b>CSS3</b>.</p>
       <p>I’d love to learn about your company and see how I can help, feel free to send me an email!</p>
 
       <a href="#" class="cta button--fill contact-trigger js-contact">Get in Touch</a>
+	    {% elsif site.lang == "fr" %}
+
+          <h2 class="title">Je suis Nicholas, ravis de faire votre connaisance!</h2>
+
+          <p>Mes compétences sont <b>Ruby</b>, <b>Ruby on Rails</b>, <b>Liquid</b>, <b>SQL</b>, <b>HTML5</b>, <b>CSS3</b>.</p>
+          <p>J'aimerais en savoir d'avantage sur votre compagnie et comment je peut y contribuer mon savoir-faire, n'hésitez pas à m'envoyer un courriel!</p>
+
+          <a href="#" class="cta button--fill contact-trigger js-contact">CONTACTEZ-MOI</a>
+	    {% endif %}
     </div>
   </div>
 </section>
