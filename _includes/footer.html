@@ -1,16 +1,31 @@
-<footer class='footer'>
-    <a href="https://github.com/berubenic" target="_blank" rel="noopener">
-        <img src="{{site.baseurl}}/assets/images/markers/github-marker.png" alt="GitHub marker" width="32px"
-            height="auto" class='github-mark'>
-        {% t contacts.github %}
-    </a>
-    <a href="https://www.linkedin.com/in/nicholas-berube-b60888164/" target="_blank" rel="noopener">
-        <img src="{{site.baseurl}}/assets/images/markers/linkedin-marker.png" alt="Linkedin marker" width="32px"
-            height="auto" class='linkedin-mark'>
-        {% t contacts.linkedin %}
-    </a>
-    <a href="mailto:berubenic@gmail.com" class="email">
-        <i class="fas fa-envelope fa-2x email icon"></i>
-        {% t contacts.email %}
-    </a>
-</footer>
+<footer class="footer">
+	<div class="wrap grid">
+
+		{% if site.data.settings.footer_settings.logo_image %}
+		<a href="{{ site.baseurl }}/" class="footer__logo">
+			<img src="{{ site.data.settings.footer_settings.logo_image | relative_url }}" class="footer__logo__img">
+		</a>
+		{% else %}
+		<a href="{{ site.baseurl }}/" class="footer__title">
+			{{ site.data.settings.basic_settings.site_title }}
+		</a>
+		{% endif %}
+	    {% if site.lang == "en" %}
+
+		<div class="footer__copyright">
+			{% if site.data.settings.footer_settings.tagline_en %}
+			<p>{{ site.data.settings.footer_settings.tagline_en }}</p>
+			{% endif %}
+			<span class="footnote">© {{ 'now' | date: "%Y" }} {{ site.data.settings.basic_settings.site_title }}</span>
+		</div>
+	    {% elsif site.lang == "fr" %}
+		<div class="footer__copyright">
+			{% if site.data.settings.footer_settings.tagline_fr %}
+			<p>{{ site.data.settings.footer_settings.tagline_fr }}</p>
+			{% endif %}
+			<span class="footnote">© {{ 'now' | date: "%Y" }} {{ site.data.settings.basic_settings.site_title }}</span>
+		</div>
+	    {% endif %}
+
+
+	</div>

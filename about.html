@@ -3,21 +3,34 @@ layout: default
 title: titles.about
 namespace: about
 permalink: /about/
-permalink_fr: /a-propos/
+permalink_fr: /à-propos/
 ---
-<h2 class='about title'>{% t titles.about %}</h2>
-<span class='row'>
-    <h3 class='about description'>{% t about.description %}</h3>
-    <img src="{{site.baseurl}}/assets/images/profile/face-profile.png"
-         alt="Portrait of Nicholas Berube"
-        width="50px" height="auto" class='about-image'>
-</span>
+<div class="page-home">
+	<section class="listing">
+		<div class="wrap">
+            <div class="wrap grid">
 
-<article class='about article'>
-    <p>{% t about.p1 %}</p>
-    <p>{% t about.p2 %}</p>
-    <p>{% t about.p3 %}</p>
-    <p>{% t about.p4 %}</p>
-    <p>{% t about.p5 %}</p>
-    <p>{% t about.p6 %}</p>
-</article>
+            <h2 class='title'>{% t titles.about %}</h2>
+            <h3 class='subtitle'>{% t about.description %}</h3>
+            <div class="about__content">
+                <article >
+                    <p>{% t about.p1 %}</p>
+                    <br>
+                    <p>{% t about.p2 %}</p>
+                    <br>
+                    <p>{% t about.p3 %}</p>
+                    <br>
+                    <p>{% t about.p4 %}</p>
+                    <br>
+                    <p>{% t about.p5 %}</p>
+                    <br>
+                    <p>{% t about.p6 %}</p>
+                </article>
+            </div>
+             <img src="/images/profile/face-profile.png" alt="Portrait of Nicholas Berube" width="250px"
+            height="auto" class='post__featured-image' style="margin: 0 auto;">
+        </div>
+
+        </div>
+	</section>
+</div>

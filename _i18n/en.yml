@@ -4,7 +4,7 @@ global:
 titles:
   about: "About"
   home: "Home"
-  contact: 'Contact'
+  contact: 'GET IN TOUCH'
   projects: 'Projects'
   job: 'Web Developer'
 contacts:
