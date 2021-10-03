@@ -79,9 +79,12 @@ featured_image: /images/social.jpg
 						{% endfor %}
 					</ul>
 					</p>
+					<p class='github_link'>
+
 					{% for link in project.github_link %}
 					<a href="{{ link }}" target="_blank" style="color: {{ accent_color }}">View on GitHub</a>
 					{% endfor %}
+					</p>
 				</div>
 			</article>
 
@@ -124,10 +127,13 @@ featured_image: /images/social.jpg
 						{% endfor %}
 					</ul>
 				</p>
-
+					<p class='github_link'>
 					{% for link in project.github_link %}
 					<a href="{{ link }}" target="_blank" style=" color: {{ accent_color }}">Lien vers GitHub</a>
 					{% endfor %}
+				</p>
+				
+					
 				</div>
 			</article>
 
