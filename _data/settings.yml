@@ -21,8 +21,8 @@ menu_settings:
 footer_settings:
   logo_image: 
   logo_width: 100
-  tagline_en: A software developer who builds web applications and sites
-  tagline_fr: Un dévloppeur qui bâtit des applications et des sites web
+  tagline_en: A software developer who builds web applications and sites.
+  tagline_fr: Un dévloppeur qui bâtit des applications et des sites web.
 
 
 hero_settings:
@@ -32,11 +32,13 @@ post_settings:
   grid_spacing: 10
 
 contact_settings:
-  email_address: ''
-  form_action: 'https://formspree.io/hello@jekyllthemes.io'
+  email_address: 'berubenic@gmail.com'
+  form_action: 'https://formspree.io/f/meqvdkwj'
   confirmation_url: '/thanks'
-  email_subject: 'Contact form submission'
-  send_button_text: 'Get in Touch'
+  email_subject_en: 'Contact form submission'
+  email_subject_fr: 'Formulaire pour me rejoindre'
+  send_button_text_en: 'Get in Touch'
+  send_button_text_fr: 'Contactez moi'
 
 social_settings:
   facebook_url: ''
