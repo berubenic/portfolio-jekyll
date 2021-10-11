@@ -1,10 +1,10 @@
 ---
 title: Ruby Chess Game
-subtitle: CLI Chess game made with Ruby.
+subtitle: CLI Chess game made with <b>Ruby</b>.
 bullet_points: 
-  - Built using Object Oriented Programming principles in mind.
-  - Thoroughly tested using Rspec.
-  - Saves a match in progress thanks to serialization.
+  - Built using <b>Object Oriented Programming</b> principles in mind.
+  - Thoroughly tested using <b>Rspec</b>.
+  - Saves a match in progress thanks to <b>serialization</b>.
 featured_image: chess-new.png
 accent_color: '#2aa198'
 gallery_images:

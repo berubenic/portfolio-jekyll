@@ -1,11 +1,11 @@
 ---
 title: Flight Booker App
-subtitle: A one-way flight booker made with Ruby on Rails.
+subtitle: A one-way flight booker made with <b>Ruby on Rails</b>.
 bullet_points: 
-  - Implented PostgreSQL database in Ruby on Rails application.
-  - Used Heroku Scheduler with two rake tasks to continuously update flights in the database.
-  - Wrote model, integration and request specs using RSpec.
-  - Utilized Rails ActionMailer to send confirmation emails after succesfully booking a flight.
+  - Implented <b>PostgreSQL</b> database in <b>Ruby on Rails</b> application.
+  - Used <b>Heroku Scheduler</b> with two <b>rake</b> tasks to continuously update flights in the database.
+  - Wrote model, integration and request specs using <b>RSpec</b>.
+  - Utilized <b>Rails ActionMailer</b> to send confirmation emails after succesfully booking a flight.
 featured_image: flightbooker-new.png
 accent_color: '#4caf50'
 gallery_images:
