@@ -2,9 +2,9 @@
 title: Réservation de Vol
 subtitle: Application qui permet de réserver un vol direct avec Ruby on Rails.
 bullet_points: 
-  - Intégration d'un centre de données PostgreSQL.
-  - En utilisant Heroku Scheduler, deux tâches rake sont établit sur horaire pour continuellement créer de nouveaux vols.
-  - Des tests sur les models, d'intégrations et de requêtes sont écrits avec RSpec.
+  - Intégration d'une base de données PostgreSQL.
+  - Utilisation de Heroku Scheduler pour programmer deux tâches rake pour mettre à jour en continu les vols dans la base de données.
+  - Écriture de tests de modèles, d'intégration et de requête avec RSpec.
   - Utilisation de Rails ActionMailer pour envoyer des courriels de confirmation lorsque un vol est réserver.
 featured_image: flightbooker-new.png
 accent_color: '#4caf50'
