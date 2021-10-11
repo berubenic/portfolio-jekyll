@@ -1,10 +1,10 @@
 ---
 title: Jeux d'Échec
-subtitle: Jeu fait avec Ruby joué dans la ligne de commande.
+subtitle: Jeu fait avec <b>Ruby</b> joué sur la <b>ligne de commande</b>.
 bullet_points: 
-  - Bâti selon les principes de la Programation Orientée Objet.
-  - Entièrement testé avec RSpec.
-  - Sauvegarder une partie grâce à la sérialization.
+  - Bâti selon les principes de la <b>Programation Orientée Objet</b>.
+  - Entièrement testé avec <b>RSpec</b>.
+  - Sauvegarder une partie grâce à la <b>sérialization</b>.
 featured_image: chess-new.png
 accent_color: '#2aa198'
 gallery_images:
