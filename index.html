@@ -17,7 +17,7 @@ featured_image: /images/social.png
 	{% endif %}
 
 	<section class="hero">
-		<div class="wrap grid">
+		<div class="wrap grid intro-container">
 			<div class="title">
 				{% if site.lang == "en" %}
 				<p class="subtitle">{{ page.overtitle_en }}</p>
@@ -33,6 +33,7 @@ featured_image: /images/social.png
 			<p class="intro subtitle--light">
 				{{ page.description }}
 				<a class="hero__cta button--fill contact-trigger js-contact" href="#">Get In Touch</a>
+
 			</p>
 			{% elsif site.lang == "fr" %}
 
