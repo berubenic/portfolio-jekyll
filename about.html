@@ -10,8 +10,13 @@ permalink_fr: /à-propos/
 		<div class="wrap">
             <div class="wrap grid">
 
-            <h2 class='title'>{% t titles.about %}</h2>
-            <h3 class='subtitle'>{% t about.description %}</h3>
+            <div class='about-image-container'>
+                <h2 class='title'>{% t titles.about %}</h2>
+                <h3 class='subtitle about-subtitle'>{% t about.description %}</h3>
+                <img src="/images/profile/face-profile.png" alt="Portrait of Nicholas Berube" width="150px"
+            height="auto" class='post__featured-image about-image'>
+            </div>
+            
             <div class="about__content">
                 <article >
                     <p>{% t about.p1 %}</p>
@@ -27,8 +32,7 @@ permalink_fr: /à-propos/
                     <p>{% t about.p6 %}</p>
                 </article>
             </div>
-             <img src="/images/profile/face-profile.png" alt="Portrait of Nicholas Berube" width="250px"
-            height="auto" class='post__featured-image' style="margin: 0 auto;">
+             
         </div>
 
         </div>

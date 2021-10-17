@@ -23,7 +23,7 @@ about:
   p3: "J’ai grandi dans une famille de sept enfants. J’ai fait mon primaire en Anglais et mon secondaire en Français. Les deux langues ont été utilisées chez moi comme si elle n’en était qu’une. J’ai donc confiance d’affirmer que je suis parfaitement bilingue en français et en anglais. J’ai grandi de façon modeste et j’ai appris que travailler fort et être honnête mène loin dans la vie. À travers ma famille, l’apprentissage d’un nouvel instrument et mes expériences professionnelles du passé, je me suis prouvé que j’ai la détermination pour accomplir n'importe quelles tâches qui se dirigent vers moi."
   p4: "Les premières fois où j’ai codé, j’ai immédiatement été accroché. Les défis quotidiens et les opportunités à en apprendre d’avantages sont infinis. Le sentiment de résoudre un problème qui dure depuis trop longtemps est sans mot. La communauté virtuelle est incroyable. C’est un monde dont je tiens à faire partie. J’ai la discipline, le leadership et les habiletés à travailler en équipe pour accomplir le travail demandé. À travers ces défis et aspirations, je croîs en avoir assez pour être un membre clé d'une équipe."
   p5: "Sincérement,"
-  p6: "Nicholas Bérubé"
+  p6: "<b><i>Nicholas Bérubé</i></b>"
 chess:
   title: "Jeux d'Échec"
   description: "Jeu fait avec Ruby joué dans la ligne de commande"
