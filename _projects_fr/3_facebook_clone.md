@@ -1,10 +1,10 @@
 ---
-title: Clone de Facebook (En-Cours)
+title: Clone de Facebook
 subtitle: Réseau Social fait avec <b>Ruby on Rails</b>
 bullet_points: 
   - Authentifier les usagers avec <b>Devise</b> et <b>Omniauth</b> Facebook.
   - Créer des publications et des amitiés.
-  - Accéder à un fil d'actualité qui contient les publications de ses amis.
+  - Écriture de tests d'<b>unités</b> et d'<b>intégration</b> avec <b>RSpec</b>.
   - Téléverser des images grâce à <b>ActiveStorage</b>.
 featured_image: facebookclone-new.png
 accent_color: '#4e4187'
