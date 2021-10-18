@@ -1,6 +1,6 @@
 ---
 title: Flight Booker App
-subtitle: A one-way flight booker made with <b>Ruby on Rails</b>.
+subtitle: A one-way flight Booker made with <b>Ruby on Rails</b>.
 bullet_points: 
   - Implemented a <b>PostgreSQL</b> database.
   - Used <b>Heroku Scheduler</b> with two <b>rake</b> tasks to continuously update flights in the database.
