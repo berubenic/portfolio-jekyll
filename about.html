@@ -6,35 +6,38 @@ permalink: /about/
 permalink_fr: /à-propos/
 ---
 <div class="page-home">
-	<section class="listing">
-		<div class="wrap">
+    <section class="listing">
+        <div class="wrap">
             <div class="wrap grid">
+                <div class='top-social-icons'>
+                    {% include component-socials.html %}
+                </div>
 
-            <div class='about-image-container'>
-                <h2 class='title'>{% t titles.about %}</h2>
-                <h3 class='subtitle about-subtitle'>{% t about.description %}</h3>
-                <img src="/images/profile/face-profile.png" alt="Portrait of Nicholas Berube" width="150px"
-            height="auto" class='post__featured-image about-image'>
+                <div class='about-image-container'>
+                    <h2 class='title'>{% t titles.about %}</h2>
+                    <h3 class='subtitle about-subtitle'>{% t about.description %}</h3>
+                    <img src="/images/profile/face-profile.png" alt="Portrait of Nicholas Berube" width="150px"
+                        height="auto" class='post__featured-image about-image'>
+                </div>
+
+                <div class="about__content">
+                    <article style="text-align: left;">
+                        <p>{% t about.p1 %}</p>
+                        <br>
+                        <p>{% t about.p2 %}</p>
+                        <br>
+                        <p>{% t about.p3 %}</p>
+                        <br>
+                        <p>{% t about.p4 %}</p>
+                        <br>
+                        <p>{% t about.p5 %}</p>
+                        <br>
+                        <p>{% t about.p6 %}</p>
+                    </article>
+                </div>
+
             </div>
-            
-            <div class="about__content">
-                <article style="text-align: left;">
-                    <p>{% t about.p1 %}</p>
-                    <br>
-                    <p>{% t about.p2 %}</p>
-                    <br>
-                    <p>{% t about.p3 %}</p>
-                    <br>
-                    <p>{% t about.p4 %}</p>
-                    <br>
-                    <p>{% t about.p5 %}</p>
-                    <br>
-                    <p>{% t about.p6 %}</p>
-                </article>
-            </div>
-             
-        </div>
 
         </div>
-	</section>
+    </section>
 </div>

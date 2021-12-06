@@ -217,6 +217,16 @@ $baseurl: '{{ site.baseurl }}';
 .wrap.grid h1{
     margin: 0.3em 0;
 }
+.top-social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.top-social-icons ul li {
+  padding: 0 0.6em;
+}
 
 
 @media only screen and (min-width: 850px) {
