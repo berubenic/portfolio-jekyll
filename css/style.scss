@@ -214,3 +214,10 @@ $baseurl: '{{ site.baseurl }}';
 .wrap.grid h1{
     margin: 0.3em 0;
 }
+
+
+@media only screen and (min-width: 850px) {
+    .owl-item {
+        width: 980px !important;
+    }
+}
