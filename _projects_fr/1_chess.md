@@ -12,5 +12,6 @@ gallery_images:
   - chess-capture.png
   - chess-win.png
 github_link: https://github.com/berubenic/Chess
+demo_link: https://replit.com/@NicholasBerube/Chess#README.md
 ---
 ### CLI Chess game made with Ruby

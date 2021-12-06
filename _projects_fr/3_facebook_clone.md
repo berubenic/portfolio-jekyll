@@ -13,4 +13,5 @@ gallery_images:
   - facebookclone-posts.png
   - facebookclone-friends.png
 github_link: https://github.com/berubenic/NotFacebook
+demo_link: https://berube-notfacebook.herokuapp.com/
 ---

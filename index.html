@@ -66,8 +66,7 @@ featured_image: /images/social.png
 
 				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
 					{% for image in project.gallery_images %}
-					<img src="{{ '/images/projects/'}}{{ image }}" alt=""
-							class="project__image">
+					<img src="{{ '/images/projects/'}}{{ image }}" alt="" class="project__image">
 					{% endfor %}
 				</div>
 
@@ -80,12 +79,17 @@ featured_image: /images/social.png
 						{% endfor %}
 					</ul>
 					</p>
-					<p class='github_link'>
-
-					{% for link in project.github_link %}
-					<a href="{{ link }}" target="_blank" style="color: {{ accent_color }}">View on GitHub</a>
-					{% endfor %}
+					<p class='demo_link'>
+						{% for link in project.demo_link %}
+						<a href="{{ link }}" target="_blank" style="color: {{ accent_color }}">View Demo</a>
+						{% endfor %}
 					</p>
+					<p class='github_link'>
+						{% for link in project.github_link %}
+						<a href="{{ link }}" target="_blank" style="color: {{ accent_color }}">Github Repository</a>
+						{% endfor %}
+					</p>
+
 				</div>
 			</article>
 
@@ -109,13 +113,12 @@ featured_image: /images/social.png
 			<article class="project__preview">
 				<h3 class="project__title">
 					{{ project.title
-						}}
+					}}
 				</h3>
 
 				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
 					{% for image in project.gallery_images %}
-					<img src="{{ '/images/projects/'}}{{ image }}" alt=""
-							class="project__image">
+					<img src="{{ '/images/projects/'}}{{ image }}" alt="" class="project__image">
 					{% endfor %}
 				</div>
 
@@ -127,14 +130,19 @@ featured_image: /images/social.png
 						<li>{{ point }}</li>
 						{% endfor %}
 					</ul>
-				</p>
+					</p>
+					<p class='demo_link'>
+						{% for link in project.demo_link %}
+						<a href="{{ link }}" target="_blank" style="color: {{ accent_color }}">Visualiser une démo</a>
+						{% endfor %}
+					</p>
 					<p class='github_link'>
-					{% for link in project.github_link %}
-					<a href="{{ link }}" target="_blank" style=" color: {{ accent_color }}">Lien vers GitHub</a>
-					{% endfor %}
-				</p>
-				
-					
+						{% for link in project.github_link %}
+						<a href="{{ link }}" target="_blank" style=" color: {{ accent_color }}">Lien vers GitHub</a>
+						{% endfor %}
+					</p>
+
+
 				</div>
 			</article>
 

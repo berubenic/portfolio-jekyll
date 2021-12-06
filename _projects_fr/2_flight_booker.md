@@ -14,4 +14,5 @@ gallery_images:
   - flightbooker-success.png
   - flightbooker-email.png
 github_link: https://github.com/berubenic/odin-flight-booker
+demo_link: https://berube-flight-booker.herokuapp.com
 ---
